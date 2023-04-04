@@ -5,8 +5,10 @@
 </head>
 
     <body>
-        @include('layout.partials.sidebar')
-        @include('layout.partials.header')
+        <div>
+            @include('layout.partials.sidebar')
+            @include('layout.partials.header')
+        </div>
         <div id="main">
             <header class="mb-3">
                 <a href="#" class="burger-btn d-block d-xl-none">
@@ -293,7 +295,10 @@
                 </div>
             </footer>
         </div>
-        @include('layout.partials.footer')
-        @include('layout.partials.footer-scripts')
+        <div>
+            @include('layout.partials.footer')
+            @include('layout.partials.footer-scripts')
+        </div>
+       
     </body>
 </html>
